@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AA566361-6597-43FA-85B7-F90A6F8BA090}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{A62EEC94-87D8-459C-803D-3AA248EF2D93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{57C408F0-367B-4A5F-B549-4CC450B2C3CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F58A7E0E-E235-454F-8FA7-1E6B62F5AB01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Source\Domain\Domain.csproj", "{A0DCAEDA-46F1-4021-8E16-A3A8A0FF608C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{58E926BD-5A2C-452A-A6AD-FA8ABED13777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Sql", "Source\DataAccess.Sql\DataAccess.Sql.csproj", "{BCAFECEB-8201-4CA4-A530-D641556E2C8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Sql.Test", "Source\DataAccess.Sql.Test\DataAccess.Sql.Test.csproj", "{008AE467-8916-4A72-A96C-874329CF9B14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0DCAEDA-46F1-4021-8E16-A3A8A0FF608C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DCAEDA-46F1-4021-8E16-A3A8A0FF608C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DCAEDA-46F1-4021-8E16-A3A8A0FF608C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DCAEDA-46F1-4021-8E16-A3A8A0FF608C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCAFECEB-8201-4CA4-A530-D641556E2C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAFECEB-8201-4CA4-A530-D641556E2C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAFECEB-8201-4CA4-A530-D641556E2C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAFECEB-8201-4CA4-A530-D641556E2C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{008AE467-8916-4A72-A96C-874329CF9B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{008AE467-8916-4A72-A96C-874329CF9B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{008AE467-8916-4A72-A96C-874329CF9B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{008AE467-8916-4A72-A96C-874329CF9B14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0DCAEDA-46F1-4021-8E16-A3A8A0FF608C} = {A62EEC94-87D8-459C-803D-3AA248EF2D93}
+		{BCAFECEB-8201-4CA4-A530-D641556E2C8B} = {58E926BD-5A2C-452A-A6AD-FA8ABED13777}
+		{008AE467-8916-4A72-A96C-874329CF9B14} = {57C408F0-367B-4A5F-B549-4CC450B2C3CF}
+	EndGlobalSection
+EndGlobal
